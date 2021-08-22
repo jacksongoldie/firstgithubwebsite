@@ -1,25 +1,71 @@
 body {
-    background-color: #1F3B2C;
+    background-color: #e5b0a4;
     margin: 0;
-    max-width: fit-content;
   }
 
-h1 {
-    font-size: 22px;
+#logo-place-holder {
+    font-size: 40px;
     font-family: Arial, sans-serif;
-    color: #e5b0a4;
+    color: #f5f3f5;
+    float: left;
+    margin: 0;
+    padding: 15px;
 }
 
-
-nav a {
-    padding: 10px;
+nav {
     float: right;
-    background-color: #588068
 }
 
+.container {
+    width: 80%;
+    margin: 0;
+}
 
-img {
-  display: block;
-  margin-left: auto;
-  width: 1200px;
+header {
+    background-color: #588068;
+}
+header::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 33px;
+}
+
+nav li:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f5f3f5;
+    text-transform: uppercase;
+}
+
+/* div class holding the image of a four leaf clover that stays centered despite browser size*/
+.image-background {
+    background: url(images/76054908-06B0-4405-A9B0-72C031A742EB.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    position: relative;
+}
+
+/* heading over the background image; wanted centered but am settling for lower right*/
+.image-background h3{
+  font-size: 50px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
