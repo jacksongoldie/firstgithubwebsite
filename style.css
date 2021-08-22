@@ -39,6 +39,7 @@ nav ul{
 nav li{
   display: inline-block;
   margin-left: 40px;
+  margin-bottom: 20px;
   padding-top: 33px;
 }
 
@@ -60,12 +61,34 @@ nav a{
     background-position: center center;
     height: 300px;
     position: relative;
+    margin-bottom: 25px;
 }
 
 /* heading over the background image; wanted centered but am settling for lower right*/
 .image-background h3{
   font-size: 50px;
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  margin: 0;
+  bottom: 10px;
+  right: 10px;
 }
+
+/* div class clovers to be side by side divs with images */
+.clovers{
+    text-align: center;
+}
+.clovers img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f5f3f5;
+}
+
+.clovers p{
+    font-size: 24px;
+}
+
