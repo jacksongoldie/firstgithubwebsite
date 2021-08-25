@@ -1,5 +1,5 @@
 body {
-    background-color: #e5b0a4;
+    background-color: #ffc0cb;
     margin: 0;
   }
 
@@ -24,6 +24,7 @@ nav {
 header {
     background-color: #588068;
 }
+
 header::after {
     content: ' ';
     display: block;
@@ -66,11 +67,13 @@ nav a{
 
 /* heading over the background image; wanted centered but am settling for lower right*/
 .image-background h3{
-  font-size: 50px;
+  font-size: 300px;
+  font-family: 'Zen Loop', cursive;
+  color: #ffc0cb;
   position: absolute;
   margin: 0;
-  bottom: 10px;
-  right: 10px;
+  right: 25%;
+  left: 25%;
 }
 
 /* div class clovers to be side by side divs with images */
@@ -89,6 +92,12 @@ nav a{
     background-color: #f5f3f5;
 }
 
+/*remove border and make pic larger, use for finding four leaf?*/
+.clovers img:hover{
+    border-style: none;
+    width: 500px;
+    height: 500px;
+  }
 .clovers p{
     font-size: 24px;
 }
